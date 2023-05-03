@@ -8,9 +8,7 @@ export default defineConfig({
     react(),
     legacy()
   ],
-  test: {
-    globals: true,
-    environment: 'jsdom',
-    setupFiles: './src/setupTests.ts',
-  }
+  optimizeDeps: {
+    exclude: ['js-big-decimal', 'blip-ds/loader', '@ionic/core/loader', '@ionic/pwa-elements/loader']
+  },
 })
