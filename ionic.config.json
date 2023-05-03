@@ -1,0 +1,7 @@
+{
+  "name": "galeriaFotos",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
